@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Select>
+	<If key="A">
+		<value>printText</value>
+	</If>
+	<If key="B">
+		<value>printText</value>
+	</If>
+	<If key="C">
+		<value>printText</value>
+	</If>
+	<If key="D">
+		<value>printText</value>
+	</If>
+	<If key="E">
+		<value>printText</value>
+	</If>
+</Select>
+
+
+
