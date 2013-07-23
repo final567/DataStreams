@@ -1,7 +1,2 @@
-﻿/4주차/test/.settings
-
-/4주차/test/build
-
-*/.settings
-
-*/build
+﻿.settings
+build
