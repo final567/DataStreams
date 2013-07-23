@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=void\ add(java.lang.String)
+comment1.params=s
+comment1.target=void\ remove(java.lang.String)
+comment2.params=s
+comment2.target=void\ search(java.lang.String)
+comment3.params=
+comment3.target=void\ print()
+comment4.params=
+comment4.target=void\ remove()
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=caption
+comment0.target=Tray(java.lang.String)
+comment1.params=item
+comment1.target=void\ add(Item)
+numComments=2
