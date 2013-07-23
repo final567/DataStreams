@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=owner
+comment0.target=Product\ create(java.lang.String)
+comment1.params=owner
+comment1.target=Product\ createProduct(java.lang.String)
+comment2.params=product
+comment2.target=void\ registerProduct(Product)
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=classname
+comment0.target=Factory\ getFactory(java.lang.String)
+comment1.params=caption\ url
+comment1.target=Link\ createLink(java.lang.String,\ java.lang.String)
+comment2.params=caption
+comment2.target=Tray\ createTray(java.lang.String)
+comment3.params=title\ author
+comment3.target=Page\ createPage(java.lang.String,\ java.lang.String)
+numComments=4
