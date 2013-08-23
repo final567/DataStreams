@@ -3,7 +3,6 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
 import java.io.*;
 import com.example.model.*;
 
@@ -15,7 +14,7 @@ public class TableManagerServlet extends HttpServlet {
 	
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		//UserTable userTable = ((TableHandling)getServletContext().getAttribute("tableHandling")).run(request, response);
-		UserTable userTable = tableHandling.run(request, response);
+		userTable = tableHandling.run(request, response);
 		
 		//"table" 이라는 Attribute(속성)에 값을 설정
 		request.setAttribute("table", userTable.getUserTable());

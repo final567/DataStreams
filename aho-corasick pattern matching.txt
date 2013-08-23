@@ -1,0 +1,2 @@
+aho-corasick pattern matching
+한번에 여러 단어를 사용해 검색할때도 빠르게 검색가능

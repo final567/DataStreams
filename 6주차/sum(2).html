@@ -1,0 +1,29 @@
+﻿<HTML>
+	<HEAD></HEAD>
+	<BODY>
+
+		<SCRIPT language="JavaScript">
+			
+			
+			var AdderMaker = function () {
+				
+			};
+
+			AdderMaker.prototype.result = 0;
+			AdderMaker.prototype.add = function(i) {
+				this.result += i;
+			};
+			AdderMaker.prototype.get_result = function() {
+				return this.result;
+			};
+
+			var adder = new AdderMaker();
+
+			for(var i=0; i<=10; i++) {
+				adder.add(i);
+				document.write(adder.get_result()+"<br>");
+			}
+
+		</SCRIPT>
+	</BODY>
+</HTML>

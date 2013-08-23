@@ -1,0 +1,99 @@
+#windows{
+	position:relative;
+	display:none;
+	margin-top:-300px;
+	margin-left:-400px;
+	top:50%;
+	left:50%;
+	width: 800px;
+	height: 600px;
+	border: solid 2px;
+	background-image:url(K-1.png);
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: 100%;
+	}
+
+.explorer{
+	position:absolute;
+	display:block;
+	margin-top:-150px;
+	margin-left:-200px;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	border: solid 2px;
+	background-color: ffffff;
+	}
+
+#power_button{
+	}
+
+#start_button{
+	position:absolute;
+	border: none;
+	margin-top:-17px;
+	top:100%;
+	left:0;
+	width: 55px;
+	height: 17px;
+	background-image:url(K-31.png);
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: 100%;
+	}
+
+.exit_button{
+	position:absolute;
+	border: none;
+	margin-left:-14px;
+	top:0%;
+	left:100%;
+	width: 14px;
+	height: 13px;
+	background-image:url(K-2-crop.png);
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: 100%;
+	}
+
+.bar{
+	position:absolute;
+	border: none;
+	top:0;
+	left:0;
+	width: 363px;
+	height: 15px;
+	background-image:url(K-2-bar.png);
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: 100%;
+	}
+
+.chatter_box{
+	position:absolute;
+	display:block;
+	top: 20px;
+	left: 10px;
+	width: 380px;
+	height: 200px;
+	border: solid 2px;
+	background-color: ffffff;
+	overflow:auto;
+}
+
+.chatter_box1{
+	position:absolute;
+	display:block;
+	top: 230px;
+	left: 10px;
+	width: 380px;
+	height: 30px;
+	background-color: ffffff;
+}
+
+.img_setting{
+	width: 40px;
+	height: 40px;
+}

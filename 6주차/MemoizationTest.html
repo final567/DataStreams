@@ -1,0 +1,26 @@
+﻿<HTML>
+	<HEAD></HEAD>
+	<BODY>
+
+		<SCRIPT language="JavaScript">
+			
+			var fibonacci = function() {
+				var memo = [0, 1];   <!-- 'memo'라는 배열 선언 -->
+				var fib = function(n) {
+					var result = memo[n];  <!-- 'memo'에서 이전의 연산 결과를 가져옴 -->
+					if(typeof result !== 'number') {  <!-- 'result'에 숫자가 들어있지 않으면 -->
+						result = fib(n-1) + fib(n-2);  <!-- 재귀 -->
+						memo[n] = result;
+					}
+					return result;
+				};
+				return fib;
+			}();  <!--'function() {..}();'에서 '();'의 뜻은 함수를 정의하자마자 생성하겠다는 의미 -->
+			
+			for(var i=0; i<=10; i++) {
+				document.writeln('// ' + i + ': ' + fibonacci(i));
+			}
+
+		</SCRIPT>
+	</BODY>
+</HTML>

@@ -3,7 +3,18 @@ import java.util.*;
 
 public class UserTable {
 	static ArrayList<User> userTable = new ArrayList<User>();
-	
+
+    private volatile static UserTable single;
+    public static UserTable getInstance(){
+        if (single == null) {
+            synchronized(UserTable.class) {
+                if (single == null) {
+                    single = new UserTable();
+                }
+            }
+        }
+        return single;
+    }
 	public void setUserTable(String name, int age, String phoneNumber) {
 		User user = new User();
 		user.setUser(name, age, phoneNumber);

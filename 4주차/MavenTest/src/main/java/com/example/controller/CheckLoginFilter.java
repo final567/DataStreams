@@ -6,12 +6,10 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
 
 /**
  * Servlet Filter implementation class CheckID
  */
-@SuppressWarnings("serial")
 @WebFilter("/CheckID")
 public class CheckLoginFilter implements Filter{
 	ApplicationContext context = null;

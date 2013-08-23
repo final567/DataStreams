@@ -20,7 +20,8 @@ public class LoginHandling {
 	private ServletContext servletContext = null;
 	UserTable userTable = null;
 	*/
-	UserTable userTable = new UserTable();
+	//UserTable userTable = new UserTable();
+	UserTable userTable = UserTable.getInstance();
 	
 	public void run(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		HttpSession session = ((HttpServletRequest)request).getSession(false);

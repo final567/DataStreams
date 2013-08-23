@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Select>
+	<If key="1">
+		<value>1초라도 안보이면~</value>
+	</If>
+	<If key="2">
+		<value>이렇게 초조한데~</value>
+	</If>
+	<If key="3">
+		<value>삼초는 어떻게기 다려~이야이야 이야이야~</value>
+	</If>
+	<If key="4">
+		<value>사랑해 널사랑해~</value>
+	</If>
+	<If key="5">
+		<value>오늘은 말할꺼야~</value>
+	</If>
+	<If key="6">
+		<value>육십억 지구에서 널만날걸~</value>
+	</If>
+	<If key="7">
+		<value>럭키야~</value>
+	</If>
+	<If key="8">
+		<value>8딱8딱 뛰는가슴</value>
+	</If>
+	<If key="9">
+		<value>구해줘 오내마음~</value>
+	</If>
+	<If key="10">
+		<value>십년이가도 너를사랑해~해~~~언제나이맘 변치않을께~</value>
+	</If>
+</Select>

@@ -27,7 +27,8 @@ public class TableHandling implements Controller {
 		userTable = (UserTable)context.getBean("userTable");
 		*/
 		
-		UserTable userTable = new UserTable();																																																																										
+		//UserTable userTable = new UserTable();
+		UserTable userTable = UserTable.getInstance();
 		//request.setCharacte	rEncoding("UTF-8");
 		if(request.getParameter("name")!=null & request.getParameter("age")!=null & request.getParameter("phone")!=null){
 			String name = request.getParameter("name");
